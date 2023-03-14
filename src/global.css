@@ -1,0 +1,84 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+:root {
+    --qwik-dark-blue: #006ce9;
+    --qwik-light-blue: #18b6f6;
+    --qwik-light-purple: #ac7ff4;
+    --qwik-dark-purple: #713fc2;
+    --gray-light: #ececec;
+    --gray-dark: #cac8c8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h4 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 1.235;
+}
+
+h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+hr {
+    margin: 50px auto 0;
+    width: 80%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
