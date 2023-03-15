@@ -7,7 +7,7 @@
 }
 
 .background-image {
-    background-image: url('https://res.cloudinary.com/jobsportal/image/upload/v1678830961/nikoleta-portfolio/backgroundImage_yu7yho.jpg');
+    background-image: url('/images/backgroundImage-min.avif');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
